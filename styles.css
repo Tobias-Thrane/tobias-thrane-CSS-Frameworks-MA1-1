@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #c2c2c2;
+  margin: 0;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  margin-bottom: 150px;
+}
+
+.navbar-smal {
+  background-color: white;
+}
+
+@media (min-width: 762px) {
+  .navbar-smal {
+    display: none;
+  }
+}
+
+.navbar__item {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  color: black;
+}
+
+.navbar-big {
+  background-color: white;
+}
+
+@media (max-width: 762px) {
+  .navbar-big {
+    display: none;
+  }
+}
+
+.ac {
+  color: #c32c72;
+}
+
+.nl {
+  color: #707070;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.footers {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.footers__div {
+  margin-top: 25px;
+}
+
+.footers__div__item {
+  color: #707070;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (min-width: 762px) {
+  .footers {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.box-blueprint, .box, .box-temp, .box-active {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.box {
+  border-color: white;
+  margin-top: 20px;
+}
+
+.box-temp {
+  border-color: #c32c72;
+  margin-top: 20px;
+}
+
+.box-active {
+  border-color: white;
+  margin-top: 20px;
+  background-color: #c32c72;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.css.map */

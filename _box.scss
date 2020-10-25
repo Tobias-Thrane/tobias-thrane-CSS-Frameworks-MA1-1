@@ -1,0 +1,24 @@
+.box-blueprint{ 
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.box {
+    @extend .box-blueprint;
+    border-color:white;
+    margin-top: 20px;
+}
+
+.box-temp {
+    @extend .box-blueprint;
+    border-color:#c32c72;
+    margin-top: 20px;
+}
+
+.box-active {
+    @extend .box-blueprint;
+    border-color:white;
+    margin-top: 20px;
+    background-color: #c32c72;
+}

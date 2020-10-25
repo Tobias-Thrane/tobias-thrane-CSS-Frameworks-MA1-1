@@ -1,0 +1,35 @@
+.navbar-smal {
+    background-color: white;
+
+    @media (min-width: 762px) {
+        display: none;
+        
+    } 
+}
+
+.navbar__item {
+    justify-content: start;
+    color: black;
+}
+
+.navbar-big {
+    background-color: white;
+
+    @media (max-width: 762px) {
+        display: none;
+        
+    } 
+}
+
+.ac {
+    color: #c32c72;
+}
+
+.nl {
+    color: #707070;
+}
+
+.navbar-toggler-icon{
+    
+    color: black;
+}

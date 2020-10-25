@@ -1,0 +1,25 @@
+.footers{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: white;
+
+    &__div {
+        margin-top: 25px;
+    }
+
+    &__div__item {
+        color: #707070;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    @media (min-width: 762px) {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+        
+    
+}
